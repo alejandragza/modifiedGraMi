@@ -1,0 +1,29 @@
+0.199
+5
+4:
+Size: 2
+v 0 2-OR
+v 1 2-OR
+e 0 1
+Number of instances: 5
+Instances:
+#0: Nodes involved: [50, 53]
+50 -> 53
+
+#1: Nodes involved: [53, 54]
+53 -> 54
+
+#2: Nodes involved: [42, 44]
+42 -> 44
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [43, 44]
+
+
+#3: Nodes involved: [26, 29]
+26 -> 29
+
+#4: Nodes involved: [28, 30]
+28 -> 30
+

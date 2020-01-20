@@ -1,0 +1,610 @@
+0.629
+25
+0:
+Size: 6
+v 0 1-NOT
+v 1 2-AND
+v 2 2-OR
+v 3 2-OR
+v 4 2-AND
+v 5 1-NOT
+e 0 1
+e 1 2
+e 2 3
+e 4 3
+e 5 4
+Number of instances: 3
+Instances:
+#0: Nodes involved: [48, 49, 51, 52, 53, 54]
+48 -> 51
+51 -> 53
+53 -> 54
+52 -> 54
+49 -> 52
+
+#1: Nodes involved: [16, 17, 24, 25, 28, 30]
+16 -> 24
+24 -> 28
+28 -> 30
+25 -> 30
+17 -> 25
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [17, 23, 25, 28, 14, 30]
+
+
+#2: Nodes involved: [18, 20, 5, 9, 26, 29]
+5 -> 18
+18 -> 26
+26 -> 29
+20 -> 29
+9 -> 20
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [18, 20, 5, 26, 10, 29]
+
+    Variation #2
+    Nodes involved: [19, 20, 7, 9, 26, 29]
+
+    Variation #3
+    Nodes involved: [19, 20, 7, 26, 10, 29]
+
+
+1:
+Size: 5
+v 0 1-NOT
+v 1 2-AND
+v 2 2-OR
+v 3 2-OR
+v 4 2-AND
+e 0 1
+e 1 2
+e 2 3
+e 4 3
+Number of instances: 3
+Instances:
+#0: Nodes involved: [48, 51, 52, 53, 54]
+48 -> 51
+51 -> 53
+53 -> 54
+52 -> 54
+
+#1: Nodes involved: [16, 24, 25, 28, 30]
+16 -> 24
+24 -> 28
+28 -> 30
+25 -> 30
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [23, 25, 28, 14, 30]
+
+
+#2: Nodes involved: [18, 20, 5, 26, 29]
+5 -> 18
+18 -> 26
+26 -> 29
+20 -> 29
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [19, 20, 7, 26, 29]
+
+
+2:
+Size: 7
+v 0 1-NOT
+v 1 2-AND
+v 2 2-OR
+v 3 2-OR
+v 4 2-AND
+v 5 1-NOT
+v 6 1-NOT
+e 0 1
+e 1 2
+e 2 3
+e 4 2
+e 5 4
+e 6 4
+Number of instances: 3
+Instances:
+#0: Nodes involved: [16, 23, 24, 28, 30, 14, 15]
+16 -> 24
+24 -> 28
+28 -> 30
+23 -> 28
+14 -> 23
+15 -> 23
+
+#1: Nodes involved: [34, 36, 37, 40, 41, 43, 44]
+34 -> 40
+40 -> 43
+43 -> 44
+41 -> 43
+36 -> 41
+37 -> 41
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [35, 36, 37, 40, 41, 43, 44]
+
+    Variation #2
+    Nodes involved: [34, 35, 36, 40, 41, 43, 44]
+
+
+#2: Nodes involved: [18, 19, 5, 7, 8, 26, 29]
+5 -> 18
+18 -> 26
+26 -> 29
+19 -> 26
+7 -> 19
+8 -> 19
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [18, 19, 5, 6, 7, 26, 29]
+
+
+3:
+Size: 6
+v 0 1-NOT
+v 1 2-AND
+v 2 2-OR
+v 3 2-OR
+v 4 2-AND
+v 5 1-NOT
+e 0 1
+e 1 2
+e 2 3
+e 4 2
+e 5 4
+Number of instances: 3
+Instances:
+#0: Nodes involved: [16, 23, 24, 28, 30, 14]
+16 -> 24
+24 -> 28
+28 -> 30
+23 -> 28
+14 -> 23
+
+#1: Nodes involved: [34, 36, 40, 41, 43, 44]
+34 -> 40
+40 -> 43
+43 -> 44
+41 -> 43
+36 -> 41
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [35, 36, 40, 41, 43, 44]
+
+
+#2: Nodes involved: [18, 19, 5, 7, 26, 29]
+5 -> 18
+18 -> 26
+26 -> 29
+19 -> 26
+7 -> 19
+
+4:
+Size: 6
+v 0 1-NOT
+v 1 2-AND
+v 2 2-OR
+v 3 2-OR
+v 4 2-AND
+v 5 1-NOT
+e 0 1
+e 1 2
+e 2 3
+e 4 2
+e 5 1
+Number of instances: 3
+Instances:
+#0: Nodes involved: [34, 35, 40, 41, 43, 44]
+34 -> 40
+40 -> 43
+43 -> 44
+41 -> 43
+35 -> 40
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [36, 37, 40, 41, 43, 44]
+
+
+#1: Nodes involved: [18, 19, 5, 6, 26, 29]
+5 -> 18
+18 -> 26
+26 -> 29
+19 -> 26
+6 -> 18
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [18, 19, 7, 8, 26, 29]
+
+
+#2: Nodes involved: [23, 24, 28, 14, 30, 15]
+14 -> 23
+23 -> 28
+28 -> 30
+24 -> 28
+15 -> 23
+
+5:
+Size: 5
+v 0 1-NOT
+v 1 2-AND
+v 2 2-OR
+v 3 2-OR
+v 4 2-AND
+e 0 1
+e 1 2
+e 2 3
+e 4 2
+Number of instances: 3
+Instances:
+#0: Nodes involved: [16, 23, 24, 28, 30]
+16 -> 24
+24 -> 28
+28 -> 30
+23 -> 28
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [23, 24, 28, 14, 30]
+
+
+#1: Nodes involved: [34, 40, 41, 43, 44]
+34 -> 40
+40 -> 43
+43 -> 44
+41 -> 43
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [36, 40, 41, 43, 44]
+
+
+#2: Nodes involved: [18, 19, 5, 26, 29]
+5 -> 18
+18 -> 26
+26 -> 29
+19 -> 26
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [18, 19, 7, 26, 29]
+
+
+6:
+Size: 5
+v 0 1-NOT
+v 1 2-AND
+v 2 2-OR
+v 3 2-OR
+v 4 1-NOT
+e 0 1
+e 1 2
+e 2 3
+e 4 1
+Number of instances: 3
+Instances:
+#0: Nodes involved: [34, 35, 40, 43, 44]
+34 -> 40
+40 -> 43
+43 -> 44
+35 -> 40
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [36, 37, 41, 43, 44]
+
+
+#1: Nodes involved: [18, 5, 6, 26, 29]
+5 -> 18
+18 -> 26
+26 -> 29
+6 -> 18
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [19, 7, 8, 26, 29]
+
+
+#2: Nodes involved: [23, 28, 14, 30, 15]
+14 -> 23
+23 -> 28
+28 -> 30
+15 -> 23
+
+8:
+Size: 6
+v 0 1-NOT
+v 1 2-AND
+v 2 2-OR
+v 3 2-AND
+v 4 1-NOT
+v 5 1-NOT
+e 0 1
+e 1 2
+e 3 2
+e 4 3
+e 5 3
+Number of instances: 3
+Instances:
+#0: Nodes involved: [16, 23, 24, 28, 14, 15]
+16 -> 24
+24 -> 28
+23 -> 28
+14 -> 23
+15 -> 23
+
+#1: Nodes involved: [34, 36, 37, 40, 41, 43]
+34 -> 40
+40 -> 43
+41 -> 43
+36 -> 41
+37 -> 41
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [35, 36, 37, 40, 41, 43]
+
+    Variation #2
+    Nodes involved: [34, 35, 36, 40, 41, 43]
+
+
+#2: Nodes involved: [18, 19, 5, 7, 8, 26]
+5 -> 18
+18 -> 26
+19 -> 26
+7 -> 19
+8 -> 19
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [18, 19, 5, 6, 7, 26]
+
+
+9:
+Size: 5
+v 0 1-NOT
+v 1 2-AND
+v 2 2-OR
+v 3 2-AND
+v 4 1-NOT
+e 0 1
+e 1 2
+e 3 2
+e 4 3
+Number of instances: 3
+Instances:
+#0: Nodes involved: [16, 23, 24, 28, 14]
+16 -> 24
+24 -> 28
+23 -> 28
+14 -> 23
+
+#1: Nodes involved: [34, 36, 40, 41, 43]
+34 -> 40
+40 -> 43
+41 -> 43
+36 -> 41
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [35, 36, 40, 41, 43]
+
+
+#2: Nodes involved: [18, 19, 5, 7, 26]
+5 -> 18
+18 -> 26
+19 -> 26
+7 -> 19
+
+10:
+Size: 5
+v 0 1-NOT
+v 1 2-AND
+v 2 2-OR
+v 3 2-AND
+v 4 1-NOT
+e 0 1
+e 1 2
+e 3 2
+e 4 1
+Number of instances: 3
+Instances:
+#0: Nodes involved: [34, 35, 40, 41, 43]
+34 -> 40
+40 -> 43
+41 -> 43
+35 -> 40
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [36, 37, 40, 41, 43]
+
+
+#1: Nodes involved: [18, 19, 5, 6, 26]
+5 -> 18
+18 -> 26
+19 -> 26
+6 -> 18
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [18, 19, 7, 8, 26]
+
+
+#2: Nodes involved: [23, 24, 28, 14, 15]
+14 -> 23
+23 -> 28
+24 -> 28
+15 -> 23
+
+11:
+Size: 4
+v 0 1-NOT
+v 1 2-AND
+v 2 2-OR
+v 3 2-AND
+e 0 1
+e 1 2
+e 3 2
+Number of instances: 3
+Instances:
+#0: Nodes involved: [16, 23, 24, 28]
+16 -> 24
+24 -> 28
+23 -> 28
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [23, 24, 28, 14]
+
+
+#1: Nodes involved: [34, 40, 41, 43]
+34 -> 40
+40 -> 43
+41 -> 43
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [36, 40, 41, 43]
+
+
+#2: Nodes involved: [18, 19, 5, 26]
+5 -> 18
+18 -> 26
+19 -> 26
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [18, 19, 7, 26]
+
+
+12:
+Size: 5
+v 0 1-NOT
+v 1 2-AND
+v 2 2-OR
+v 3 2-OR
+v 4 2-AND
+e 0 1
+e 1 2
+e 3 2
+e 4 3
+Number of instances: 3
+Instances:
+#0: Nodes involved: [49, 51, 52, 53, 54]
+49 -> 52
+52 -> 54
+53 -> 54
+51 -> 53
+
+#1: Nodes involved: [17, 23, 25, 28, 30]
+17 -> 25
+25 -> 30
+28 -> 30
+23 -> 28
+
+#2: Nodes involved: [18, 20, 9, 26, 29]
+9 -> 20
+20 -> 29
+26 -> 29
+18 -> 26
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [19, 20, 9, 26, 29]
+
+    Variation #2
+    Nodes involved: [18, 20, 10, 26, 29]
+
+    Variation #3
+    Nodes involved: [19, 20, 10, 26, 29]
+
+
+18:
+Size: 4
+v 0 2-AND
+v 1 2-OR
+v 2 2-OR
+v 3 2-AND
+e 0 1
+e 1 2
+e 3 2
+Number of instances: 3
+Instances:
+#0: Nodes involved: [18, 20, 26, 29]
+18 -> 26
+26 -> 29
+20 -> 29
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [19, 20, 26, 29]
+
+
+#1: Nodes involved: [51, 52, 53, 54]
+51 -> 53
+53 -> 54
+52 -> 54
+
+#2: Nodes involved: [23, 25, 28, 30]
+23 -> 28
+28 -> 30
+25 -> 30
+
+19:
+Size: 4
+v 0 2-AND
+v 1 2-OR
+v 2 2-OR
+v 3 2-AND
+e 0 1
+e 1 2
+e 3 1
+Number of instances: 3
+Instances:
+#0: Nodes involved: [18, 19, 26, 29]
+18 -> 26
+26 -> 29
+19 -> 26
+
+#1: Nodes involved: [23, 24, 28, 30]
+23 -> 28
+28 -> 30
+24 -> 28
+
+#2: Nodes involved: [40, 41, 43, 44]
+40 -> 43
+43 -> 44
+41 -> 43
+
+21:
+Size: 3
+v 0 2-AND
+v 1 2-OR
+v 2 2-AND
+e 0 1
+e 2 1
+Number of instances: 3
+Instances:
+#0: Nodes involved: [18, 19, 26]
+18 -> 26
+19 -> 26
+
+#1: Nodes involved: [23, 24, 28]
+23 -> 28
+24 -> 28
+
+#2: Nodes involved: [40, 41, 43]
+40 -> 43
+41 -> 43
+

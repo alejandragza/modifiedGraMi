@@ -1,0 +1,80 @@
+0.048
+1
+0:
+Size: 2
+v 0 1-NOT
+v 1 2-AND
+e 0 1
+Number of instances: 12
+Instances:
+#0: Nodes involved: [34, 40]
+34 -> 40
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [35, 40]
+
+
+#1: Nodes involved: [36, 41]
+36 -> 41
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [37, 41]
+
+
+#2: Nodes involved: [18, 5]
+5 -> 18
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [18, 6]
+
+
+#3: Nodes involved: [19, 7]
+7 -> 19
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [19, 8]
+
+
+#4: Nodes involved: [20, 9]
+9 -> 20
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [20, 10]
+
+
+#5: Nodes involved: [21, 11]
+11 -> 21
+
+#6: Nodes involved: [22, 12]
+12 -> 22
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [22, 13]
+
+
+#7: Nodes involved: [23, 14]
+14 -> 23
+
+ These appear to be variations of this graph: 
+    Variation #1
+    Nodes involved: [23, 15]
+
+
+#8: Nodes involved: [16, 24]
+16 -> 24
+
+#9: Nodes involved: [48, 51]
+48 -> 51
+
+#10: Nodes involved: [17, 25]
+17 -> 25
+
+#11: Nodes involved: [49, 52]
+49 -> 52
+

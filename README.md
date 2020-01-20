@@ -18,7 +18,7 @@ Download and extract the files.
 Compile the tool using build script.
 
 ```bash
- build
+ ./build
 ```
 Run the tool using fsm script.
 Inputs:
