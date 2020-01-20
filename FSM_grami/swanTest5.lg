@@ -1,0 +1,131 @@
+# t 1
+v 0 0
+v 1 X1
+v 2 X2
+v 3 X3
+v 4 X4
+v 5 NOT
+v 6 NOT
+v 7 NOT
+v 8 NOT
+v 9 NOT
+v 10 NOT
+v 11 NOT
+v 12 NOT
+v 13 NOT
+v 14 NOT
+v 15 NOT
+v 16 NOT
+v 17 NOT
+v 18 AND
+v 19 AND
+v 20 AND
+v 21 AND
+v 22 AND
+v 23 AND
+v 24 AND
+v 25 AND
+v 26 OR
+v 27 AND
+v 28 OR
+v 29 OR
+v 30 OR
+v 31 F
+v 32 W
+v 33 W2
+v 34 NOT
+v 35 NOT
+v 36 NOT
+v 37 NOT
+v 38 NOT
+v 39 NOT
+v 40 AND
+v 41 AND
+v 42 OR
+v 43 OR
+v 44 OR
+v 45 W3
+v 46 NOT
+v 47 NOT
+v 48 NOT
+v 49 NOT
+v 50 OR
+v 51 AND
+v 52 AND
+v 53 OR
+v 54 OR
+v 55 W4
+e 1 5 0
+e 1 7 0
+e 1 11 0
+e 1 14 0
+e 1 16 0
+e 1 17 0
+e 1 34 0
+e 1 36 0
+e 1 46 0
+e 1 48 0
+e 1 49 0
+e 2 6 0
+e 2 9 0
+e 2 21 0
+e 2 15 0
+e 2 35 0
+e 2 38 0
+e 2 47 0
+e 3 8 0
+e 3 12 0
+e 3 25 0
+e 3 37 0
+e 3 52 0
+e 4 10 0
+e 4 13 0
+e 4 24 0
+e 4 39 0
+e 4 51 0
+e 5 18 0
+e 6 18 0
+e 7 19 0
+e 8 19 0
+e 9 20 0
+e 10 20 0
+e 11 21 0
+e 12 22 0
+e 13 22 0
+e 14 23 0
+e 15 23 0
+e 16 24 0
+e 17 25 0
+e 18 26 0
+e 19 26 0
+e 20 29 0
+e 21 27 0
+e 22 27 0
+e 23 28 0
+e 24 28 0
+e 25 30 0
+e 26 29 0
+e 27 32 0
+e 28 30 0
+e 29 31 0
+e 30 33 0
+e 34 40 0
+e 35 40 0
+e 36 41 0
+e 37 41 0
+e 38 42 0
+e 39 42 0
+e 40 43 0
+e 41 43 0
+e 42 44 0
+e 43 44 0
+e 44 45 0
+e 46 50 0
+e 47 50 0
+e 48 51 0
+e 49 52 0
+e 50 53 0
+e 51 53 0
+e 52 54 0
+e 53 54 0
+e 54 55 0

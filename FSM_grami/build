@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Building..."
+mkdir ../FSM_grami/bin
+javac -sourcepath ../FSM_grami/src -d ../FSM_grami/bin/ ../FSM_grami/src/**/*.java
+echo "DONE."

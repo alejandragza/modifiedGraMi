@@ -1,0 +1,40 @@
+#t 1
+v 0 X1
+v 1 X1
+v 2 X2
+v 3 X3
+v 4 X4
+v 5 NOT
+v 6 NOT
+v 7 NOT
+v 8 NOT
+v 9 NOT
+v 10 NOT
+v 11 AND
+v 12 AND
+v 13 AND
+v 14 OR
+v 15 OR
+v 16 F
+v 17 AND
+v 18 X5
+e 0 1 0
+e 1 5 0
+e 1 7 0
+e 2 6 0
+e 2 9 0
+e 3 8 0
+e 4 10 0
+e 5 11 0
+e 6 11 0
+e 6 17 0
+e 7 12 0
+e 8 12 0
+e 9 13 0
+e 10 13 0
+e 11 14 0
+e 12 14 0
+e 13 15 0
+e 14 15 0
+e 15 16 0
+e 18 17 0

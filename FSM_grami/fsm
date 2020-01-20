@@ -1,0 +1,58 @@
+#!/bin/bash
+# $1 is file name
+# $2 is minSize
+# $3 minFreqThreshold
+
+#echo "Opening file $1..."
+#vim $1
+
+minFreqThreshold=-1
+
+#get parameters
+while test $# -gt 0; do
+	case "$1" in
+		-file)
+			shift
+			if test $# -gt 0; then
+				file=$1
+			fi
+			shift
+			;;
+
+		-minSize|-minsize)
+			shift
+			if test $# -gt 0; then
+				minSize=$1
+			fi
+			shift
+			;;
+
+		-minFreqThreshold|-minfreqthreshold)
+			shift
+			if test $# -gt 0; then
+				minFreqThreshold=$1
+			fi
+			shift
+			;;
+	esac
+done
+
+#print params we received
+echo "File is $file"
+echo "minSize is $minSize"
+if [ $minFreqThreshold -eq -1 ]
+then
+echo "minFreqThreshold was not set"
+else
+echo "minFreqThreshold is $minFreqThreshold"
+fi
+
+#start run
+if [ $minFreqThreshold -eq -1 ]
+then
+#java -cp ../Principal/bin Principal $file $minSize
+java -cp ../FSM_grami/bin Dijkstra.main $file $minSize
+else
+#java -cp ../Principal/bin Principal $file $minSize $minFreqThreshold
+java -cp ../FSM_grami/bin Dijkstra.main $file $minSize $minFreqThreshold
+fi
