@@ -8,12 +8,17 @@ Main differences:
 - ModifiedGraMi will output only the frequent subgraphs that are of a given minimum size or larger. 
 - ModifiedGraMi takes into consideration the in-degree of vertices as a vertex invariant when looking for isomorphisms. A vertex labeled B that originally has three incoming edges will not be equivalent to a vertex labeled B that has one incoming edge, even if in the extracted subgraph only one of those edges is part of it.
 
+## Contents
+1. ModifiedGraMi is inside FSM_grami folder.
+2. Example runs documentation, including the output files and visual aids of the input graph and of the identified frequent graphs. 
+3. PDF including a more in-depth explanation of the frequent subgraph mining problem and of how the tool works.
+
 ## Prerequisites
 - Java version that supports CORBA.  Suggestion: Java JRE 1.8 (since it is the latest version that still has CORBA support).
 - Ubuntu
 
 ## Installing
-Download and extract the files.
+Download and extract the files from FSM_grami.
 
 Compile the tool using build script.
 
